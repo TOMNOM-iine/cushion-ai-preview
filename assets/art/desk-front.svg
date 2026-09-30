@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="280" viewBox="0 0 1600 280" fill="none">
+  <defs>
+    <linearGradient id="wood" x1="800" y1="18" x2="800" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#ac9270"/><stop offset=".5" stop-color="#806947"/><stop offset="1" stop-color="#5c4b35"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".008 .2" numOctaves="3" seed="8" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".15"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <clipPath id="edge"><path d="M0 21 217 15 511 19 812 12 1184 19 1420 13 1600 20V280H0Z"/></clipPath>
+  </defs>
+  <path d="M0 26 217 20 511 24 812 17 1184 24 1420 18 1600 25V280H0Z" fill="#403e30" opacity=".21"/>
+  <g clip-path="url(#edge)">
+    <path d="M0 21 217 15 511 19 812 12 1184 19 1420 13 1600 20V280H0Z" fill="url(#wood)" filter="url(#grain)"/>
+    <path d="M-20 57C173 42 245 64 433 49S793 64 976 48 1266 49 1648 47M-17 126C241 108 290 145 511 124S821 145 1102 129 1377 148 1630 119M-4 205C199 181 380 217 613 198S1003 207 1129 189 1380 216 1610 197" stroke="#473f2f" stroke-width="2" opacity=".23"/>
+    <path d="M50 68C219 72 231 58 419 69M674 65C845 68 862 80 1014 64M1232 88 1507 78M58 149C178 153 269 170 395 148M744 160C919 167 940 150 1061 158M1076 224C1260 208 1432 230 1536 216" stroke="#e8cda8" stroke-width="2" opacity=".19"/>
+    <path d="M1209 140C1240 132 1275 136 1285 142 1260 150 1230 148 1209 140ZM1230 142 1262 142M295 83C323 80 337 85 347 87 329 96 312 92 295 83Z" stroke="#4f4430" opacity=".27"/>
+  </g>
+  <path d="M0 24 217 18 511 22 812 15 1184 22 1420 16 1600 23" stroke="#d6bc97" stroke-width="5" opacity=".56"/>
+</svg>

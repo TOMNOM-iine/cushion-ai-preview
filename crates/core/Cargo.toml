@@ -1,0 +1,25 @@
+[package]
+name = "cushion-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[features]
+wasm = ["dep:wasm-bindgen", "dep:js-sys", "getrandom/js"]
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+getrandom = "0.2.16"
+sha2 = "0.10.9"
+unicode-normalization = "0.1.24"
+unicode-segmentation = "1.12.0"
+cushion-inference = { path = "../inference" }
+wasm-bindgen = { version = "=0.2.104", optional = true }
+js-sys = { version = "=0.3.81", optional = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+regex = "1.13.1"

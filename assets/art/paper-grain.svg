@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs><filter id="fibre"><feTurbulence type="fractalNoise" baseFrequency=".76" numOctaves="3" seed="19" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer></filter></defs>
+  <path fill="#f4eedd" d="M0 0h240v240H0z"/>
+  <path filter="url(#fibre)" opacity=".38" d="M0 0h240v240H0z"/>
+  <g stroke="#ab956c" stroke-opacity=".10" stroke-width=".6"><path d="m19 34 5 1m49 15 7-1m104-22 4 2m23 71 6-2M49 170l6 3m67-67 4 1m-39 98 4-1m74-25 9-1m-32-32 6 3M15 121l5 1m183 81 5-2"/></g>
+</svg>

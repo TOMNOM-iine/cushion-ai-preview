@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs><linearGradient id="wall" x1="0" x2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#4c4e3d"/><stop offset=".68" stop-color="#777962"/><stop offset="1" stop-color="#b6b19a"/></linearGradient><linearGradient id="shadow" x1="60" x2="145" gradientUnits="userSpaceOnUse"><stop stop-color="#233529" stop-opacity=".28"/><stop offset="1" stop-color="#233529" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 0H85L90 279 79 661 94 1000H0Z" fill="url(#wall)"/>
+  <path d="M64 0H127L137 480 122 1000H66Z" fill="url(#shadow)"/>
+  <path d="M0 0H1600V39L1262 34 811 39 431 32 0 41Z" fill="#484f3d" opacity=".65"/>
+  <path d="M1541 0H1600V1000H1532L1544 667 1538 321Z" fill="#555b45" opacity=".8"/>
+  <path d="M26 0 34 235 27 594 34 1000M68 0 62 310 69 730 65 1000" stroke="#ded5b7" stroke-opacity=".17" stroke-width="3"/>
+  <path d="M1465 36C1494 62 1498 117 1493 175" stroke="#b6a889" stroke-width="2"/>
+  <path d="M1491 172 1508 181 1505 234 1486 237 1480 188Z" fill="#f4eedd" opacity=".62"/>
+  <path d="M1487 187 1504 194M1487 203 1500 209" stroke="#877b5e" opacity=".37"/>
+</svg>

@@ -1,0 +1,640 @@
+{
+  "format": 1,
+  "scope": "fictional-browser-demo-and-developer-kit",
+  "publicationApproved": true,
+  "license": "MIT",
+  "generatedWasmIncluded": true,
+  "nativeReferenceIncluded": true,
+  "nativeReferenceBuildVerified": false,
+  "referenceTransformations": [
+    {
+      "path": "reference/native/crates/inference/src/runtime.rs",
+      "category": "fictional-test-path-portability",
+      "occurrences": 1
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "6eabc8e6029ff9d871fd9d8c395be7007c2e8bb7e65b9f50de20e7a22688823f"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1389,
+      "sha256": "afa7f83c3967bd74525a2ec40626b871e354a6f15c21a583b1c84ac74c61f6c2"
+    },
+    {
+      "path": "apps/desktop/embedded.html",
+      "bytes": 723,
+      "sha256": "8553a93b4cecad62dfd8c43395be7988923aa4f60b117c564b9e9c84c436c01a"
+    },
+    {
+      "path": "apps/desktop/index.html",
+      "bytes": 701,
+      "sha256": "844961a2891cad97edd20256a4dcdc63abaff8c0ad54d30364c5ca1c11b1e84a"
+    },
+    {
+      "path": "apps/desktop/src/App.tsx",
+      "bytes": 45905,
+      "sha256": "c8723c22f44e285d056f8367ced70f03b249b6c85517fd6abf8a223346c2c174"
+    },
+    {
+      "path": "apps/desktop/src/bridge.ts",
+      "bytes": 5755,
+      "sha256": "70807c1366b10358766a87003f55fd4bc79c6adf512f72db798b5c8404f02e51"
+    },
+    {
+      "path": "apps/desktop/src/embed.css",
+      "bytes": 24159,
+      "sha256": "4c2e6fd9f9d618bad65ea84f3573c646829f3a0dee2c5eaea4ade911771b0473"
+    },
+    {
+      "path": "apps/desktop/src/embedded-main.tsx",
+      "bytes": 184,
+      "sha256": "c43504ead490ee3d9b58debb1efafacadfa24ebde94295fc80daa6e76da31c4e"
+    },
+    {
+      "path": "apps/desktop/src/EmbeddedChat.tsx",
+      "bytes": 49236,
+      "sha256": "86a0ab7f279c4c447052c0dbdc79e4e5da0cb1c8f0165cdbc35ed94a21f7e46d"
+    },
+    {
+      "path": "apps/desktop/src/main.tsx",
+      "bytes": 157,
+      "sha256": "700cfe9e3aad835432060fb4d73588e298d743de270d81ee75b36cb3754021b4"
+    },
+    {
+      "path": "apps/desktop/src/styles.css",
+      "bytes": 28545,
+      "sha256": "d864bb68137e032ec32029b65a676f916e1d3184af9a8d91506149230a0de19e"
+    },
+    {
+      "path": "apps/desktop/src/support-main.tsx",
+      "bytes": 198,
+      "sha256": "d0fcfac0ff249aa3ddbbdbc70e41bf0b4d78ff420eac47e6d5c3be81b498bed9"
+    },
+    {
+      "path": "apps/desktop/src/textImport.ts",
+      "bytes": 1106,
+      "sha256": "9b72847f92a20bd69fb320c66a308810798c8468179b4523e981d565e201e863"
+    },
+    {
+      "path": "apps/desktop/src/types.ts",
+      "bytes": 1835,
+      "sha256": "f1aedac1f0d050979045d4ba5581e2b8ec0652f141881444775ad5d1f2ad6de8"
+    },
+    {
+      "path": "apps/desktop/src/wasm/cushion_core_bg.wasm",
+      "bytes": 656827,
+      "sha256": "7e9496d3bf5d27127cac81b6198bcb37dfe7254730c3f3ef16f5c6aa300dbe5d"
+    },
+    {
+      "path": "apps/desktop/src/wasm/cushion_core_bg.wasm.d.ts",
+      "bytes": 804,
+      "sha256": "7ce1f4f386c61f72ac1e07611f78774cb5c5e86846a6fc0872cabbad4928f9d2"
+    },
+    {
+      "path": "apps/desktop/src/wasm/cushion_core.d.ts",
+      "bytes": 1879,
+      "sha256": "e1a2d7cdad8a60605f00445164ec3d02b0ce0fb752f7d943fdfde07a182fcc44"
+    },
+    {
+      "path": "apps/desktop/src/wasm/cushion_core.js",
+      "bytes": 12863,
+      "sha256": "cfcbc293ae309ff02d2fb6bd6166776f132721021c9003929267cab308d901d8"
+    },
+    {
+      "path": "apps/desktop/support.html",
+      "bytes": 722,
+      "sha256": "f789b83959a4a1da504f2e0672fa5f324032b22b6ea3af0c7b1eeed9237cae05"
+    },
+    {
+      "path": "assets/art/companion-idle.png",
+      "bytes": 1282163,
+      "sha256": "9b3c1b4b78688608f181c81e1cd507d97af55a00d2bea3dcdfaaa9017ce4b73a"
+    },
+    {
+      "path": "assets/art/cup.svg",
+      "bytes": 917,
+      "sha256": "ad161fa8da40a0533941a2e3da65ffd5fa4f439bc54b98a608d56bb891ad5a6a"
+    },
+    {
+      "path": "assets/art/desk-front.svg",
+      "bytes": 1795,
+      "sha256": "c964006aeab62d484742d11e55edd62b104e6fbc878bc2dcd380597d97a6972b"
+    },
+    {
+      "path": "assets/art/envelope-closed.svg",
+      "bytes": 705,
+      "sha256": "c84fb10cc807b56b7627f3f123678577c67e8c3c2a9d6d3e2a79a9997e3858b7"
+    },
+    {
+      "path": "assets/art/envelope.svg",
+      "bytes": 884,
+      "sha256": "6d4c0281ccd529396def12180f0e157f0bd1da2b41d86afef11cb8c616a8b461"
+    },
+    {
+      "path": "assets/art/forest-backdrop.png",
+      "bytes": 3298157,
+      "sha256": "6f49cf618e0e00b914ddf149723701f9993d88f1b796383c3281fefd547caacf"
+    },
+    {
+      "path": "assets/art/paper-grain.svg",
+      "bytes": 666,
+      "sha256": "72ebee6bffe5c05ee2a08d052808504d7a2be33c17ec9eb3ff6cfe0640da7b7b"
+    },
+    {
+      "path": "assets/art/room-middle.svg",
+      "bytes": 1198,
+      "sha256": "1b0b38b84c59746272fd26d28dff72471992aaa66eaa48e817038912320aa213"
+    },
+    {
+      "path": "assets/art/thread-spool.svg",
+      "bytes": 934,
+      "sha256": "6211ab40937c9a695768a667a777a62477bfc27daabf1a4184b4174b75e7ad46"
+    },
+    {
+      "path": "assets/ASSET_MANIFEST.md",
+      "bytes": 1329,
+      "sha256": "b6c2ba03ad2296044235ab739a6b2d3f21a9719050328afb8f6bed3565fe49aa"
+    },
+    {
+      "path": "Cargo.lock",
+      "bytes": 13025,
+      "sha256": "b11841c370a65584c443889d401c33a8889d973660b7b68c3dacbbddfd7d449d"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 249,
+      "sha256": "01272b6872250981e42b98d1a22fe35a98265844668808158c9842ba12fbe527"
+    },
+    {
+      "path": "crates/core/Cargo.toml",
+      "bytes": 613,
+      "sha256": "a1b522e4c83446f94c081a407f71cdf6bee9b9c4c6af8442c830dacf0b84c7e0"
+    },
+    {
+      "path": "crates/core/src/lib.rs",
+      "bytes": 41686,
+      "sha256": "e14ab18945199fe26f9f4536812e374f7b03c2c0c7ca72b2e2d2f5861c77ed19"
+    },
+    {
+      "path": "crates/inference/Cargo.toml",
+      "bytes": 369,
+      "sha256": "529d5a764fcadba19652323dfb275e6978312c4edbcb3e3e78f655a64a65c6d0"
+    },
+    {
+      "path": "crates/inference/src/lib.rs",
+      "bytes": 8612,
+      "sha256": "dee1b8c4927f0568a45e30d11d10fd6a63f3e16b0bf23ea4b996ad151f5dd0bb"
+    },
+    {
+      "path": "crates/inference/src/surface_set.rs",
+      "bytes": 7330,
+      "sha256": "02a8bcaafdf3ffa022b27f5928c927a537f8db769811ca7aa20be5c995d7dbea"
+    },
+    {
+      "path": "developer/ARCHITECTURE.md",
+      "bytes": 5294,
+      "sha256": "6c9ae133352a3629e3ec316f32f83b5fd5b7e62e767917f5dac6dbf05e9583e4"
+    },
+    {
+      "path": "developer/CHATGPT_SUBSCRIPTION.md",
+      "bytes": 20292,
+      "sha256": "3c23d43af0ffd17df45d04c8ff9da8f9ab859868c0bf590f9f7be4b4d390f419"
+    },
+    {
+      "path": "developer/IMPLEMENTATION_ROADMAP.md",
+      "bytes": 5070,
+      "sha256": "8137a7430aae587deb4089652d8d040a58353b61349825e28703163b929f2b74"
+    },
+    {
+      "path": "developer/LOCAL_LLM.md",
+      "bytes": 21456,
+      "sha256": "c8f5adf609a27fa0dfe4cef2da4755d4112f7474cb49054745ad8a705afa64dc"
+    },
+    {
+      "path": "developer/README.md",
+      "bytes": 4290,
+      "sha256": "7bec3af64e7536c4607b2c3250b0d95c438fc9e86815445c839f43e6bdae9a99"
+    },
+    {
+      "path": "examples/embedded-chat.ts",
+      "bytes": 1903,
+      "sha256": "379d36ec8e06c26b2124d8efe7ef1d9715775f7b95df18df246e6f24c2f45430"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1080,
+      "sha256": "59eb5ad5eb7a484a8ae06291b3064167756944266a345a46b5981427904a102e"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 982,
+      "sha256": "671e149d6b416d96d3a3fde331c56f19eb49a82071b603632b65ed7040a4bb8b"
+    },
+    {
+      "path": "licenses/npm-react-19.3.0-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "licenses/npm-react-dom-19.3.0-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "licenses/npm-scheduler-0.28.0-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "licenses/npm-tauri-apps-api-2.12.0-LICENSE-MIT.txt",
+      "bytes": 1090,
+      "sha256": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d"
+    },
+    {
+      "path": "licenses/rust-block-buffer-0.10.4-LICENSE-MIT.txt",
+      "bytes": 1082,
+      "sha256": "d5c22aa3118d240e877ad41c5d9fa232f9c77d757d4aac0c2f943afc0a95e0ef"
+    },
+    {
+      "path": "licenses/rust-bumpalo-3.20.3-LICENSE-MIT.txt",
+      "bytes": 1059,
+      "sha256": "65f94e99ddaf4f5d1782a6dae23f35d4293a9a01444a13135a6887017d353cee"
+    },
+    {
+      "path": "licenses/rust-cfg-if-1.0.5-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-crypto-common-0.1.7-LICENSE-MIT.txt",
+      "bytes": 1065,
+      "sha256": "3521672491a3479422d5fe1aca6645dd2984090f85da6e5205abfb18fb7a6897"
+    },
+    {
+      "path": "licenses/rust-digest-0.10.7-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "9e0dfd2dd4173a530e238cb6adb37aa78c34c6bc7444e0e10c1ab5d8881f63ba"
+    },
+    {
+      "path": "licenses/rust-generic-array-0.14.7-LICENSE-MIT.txt",
+      "bytes": 1107,
+      "sha256": "c09aae9d3c77b531f56351a9947bc7446511d6b025b3255312d3e3442a9a7583"
+    },
+    {
+      "path": "licenses/rust-getrandom-0.2.17-LICENSE-MIT.txt",
+      "bytes": 1130,
+      "sha256": "42fa16951ce7f24b5a467a40e5b449a1d41e662f97ca779864f053f39e097737"
+    },
+    {
+      "path": "licenses/rust-itoa-1.0.18-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-js-sys-0.3.81-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-log-0.4.34-LICENSE-MIT.txt",
+      "bytes": 1071,
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "path": "licenses/rust-memchr-2.8.3-LICENSE-MIT.txt",
+      "bytes": 1081,
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+    },
+    {
+      "path": "licenses/rust-once_cell-1.21.4-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-proc-macro2-1.0.107-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-quote-1.0.47-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-rustversion-1.0.23-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-serde_core-1.0.229-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-serde_derive-1.0.229-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-serde_json-1.0.151-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-serde-1.0.229-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-sha2-0.10.9-LICENSE-MIT.txt",
+      "bytes": 1138,
+      "sha256": "b4eb00df6e2a4d22518fcaa6a2b4646f249b3a3c9814509b22bd2091f1392ff1"
+    },
+    {
+      "path": "licenses/rust-standard-library-1.98.1-COPYRIGHT-library.html",
+      "bytes": 1512520,
+      "sha256": "68129500b616d5838629e68f55ff3aed5e096dacf60ce9eb41bbe599a563afa6"
+    },
+    {
+      "path": "licenses/rust-syn-2.0.119-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-syn-3.0.6-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-tinyvec-1.13.3-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "fd80a26fbb3f644af1fa994134446702932968519797227e07a1368dea80f0bc"
+    },
+    {
+      "path": "licenses/rust-typenum-1.20.1-LICENSE-MIT.txt",
+      "bytes": 1083,
+      "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f"
+    },
+    {
+      "path": "licenses/rust-unicode-ident-1.0.26-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/rust-unicode-ident-1.0.26-LICENSE-UNICODE.txt",
+      "bytes": 1995,
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+    },
+    {
+      "path": "licenses/rust-unicode-normalization-0.1.25-COPYRIGHT.txt",
+      "bytes": 321,
+      "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+    },
+    {
+      "path": "licenses/rust-unicode-normalization-0.1.25-LICENSE-MIT.txt",
+      "bytes": 1071,
+      "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+    },
+    {
+      "path": "licenses/rust-unicode-segmentation-1.13.3-COPYRIGHT.txt",
+      "bytes": 321,
+      "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d"
+    },
+    {
+      "path": "licenses/rust-unicode-segmentation-1.13.3-LICENSE-MIT.txt",
+      "bytes": 1071,
+      "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+    },
+    {
+      "path": "licenses/rust-version_check-0.9.5-LICENSE-MIT.txt",
+      "bytes": 1085,
+      "sha256": "b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e"
+    },
+    {
+      "path": "licenses/rust-wasm-bindgen-0.2.104-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-wasm-bindgen-backend-0.2.104-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-wasm-bindgen-macro-0.2.104-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-wasm-bindgen-macro-support-0.2.104-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-wasm-bindgen-shared-0.2.104-LICENSE-MIT.txt",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "path": "licenses/rust-zmij-1.0.23-LICENSE-MIT.txt",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "licenses/SHA256SUMS.txt",
+      "bytes": 4442,
+      "sha256": "83368f1ee135423178fa012e9f34963cfbe768070745d785069c0646ace71ab1"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 65929,
+      "sha256": "9d976aeaa641a8cb65e2ca02cf1e51c3960515385fbd8ba02b6bdd191eb36128"
+    },
+    {
+      "path": "package.json",
+      "bytes": 910,
+      "sha256": "e6a3588e548d8dac4728b185eee4ee892f1723087296c675375092a07d373e5d"
+    },
+    {
+      "path": "packages/cushion-sdk/README.md",
+      "bytes": 3755,
+      "sha256": "e0dcdcf534ff3b185aa883cda3488e73e1b25b7e3be2ba77b8a7639d59eaec26"
+    },
+    {
+      "path": "packages/cushion-sdk/src/contracts.ts",
+      "bytes": 2154,
+      "sha256": "88391318273c53bbc43e467d33037911671f941224eaa70f63fc402f9d1c16a5"
+    },
+    {
+      "path": "packages/cushion-sdk/src/index.ts",
+      "bytes": 13163,
+      "sha256": "21f577a7009d6453a1b9adbcf64bad80cd17ff149ba7dec9de005428969ee1e0"
+    },
+    {
+      "path": "packages/cushion-sdk/src/provider-wire.ts",
+      "bytes": 3530,
+      "sha256": "8557ef3606b279d5cfc7332cfac86f3db24933d9ec95670a751cd2034d9f73de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6667,
+      "sha256": "4579123c293c30e9dd84797da036bef6dc668144bb6435d5ad03e9d1bd2120cd"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/Cargo.toml",
+      "bytes": 842,
+      "sha256": "7672ab118ed3290b9157e68df32bf878090b3c4c82261a984d0effed209f28ac"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/src/main.rs",
+      "bytes": 22446,
+      "sha256": "97e0202d5e433a2e7eeef2cc7278ea8036a58f5a3a9ceb784aa403e44ec6de91"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/src/provider.rs",
+      "bytes": 6711,
+      "sha256": "b04b1ea20aa19cccc3fbd7a9e18c4253c74808e7e84f0d0b3766e1d207a59f21"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/src/subscription_auth.rs",
+      "bytes": 64296,
+      "sha256": "74ff041ec52add6774dcbf35f8e452440bd8ffb2de96b8521b48333fe3b103c9"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/src/subscription_host.rs",
+      "bytes": 49818,
+      "sha256": "414504d26c9858730d118e140ce7d2e1ff1ab529d7e4da4e5ca6579e4d1c1ec0"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/src/subscription_stream.rs",
+      "bytes": 13139,
+      "sha256": "7e03cf75ccf52b83d3ccebe662e32a2e4796b2ee94c18514c710066682de5416"
+    },
+    {
+      "path": "reference/native/apps/desktop/src-tauri/src/subscription_transport.rs",
+      "bytes": 66336,
+      "sha256": "30eb4f031ef9b00c6b74fa6585c6a96809540e49916b3e5d06ed48e3cef497aa"
+    },
+    {
+      "path": "reference/native/crates/core/src/local.rs",
+      "bytes": 37142,
+      "sha256": "97e7410a074ade25628d9fa53e5bb66e6a0549a427f1285c8dcb1748c57c190c"
+    },
+    {
+      "path": "reference/native/crates/inference/src/model_profiles.rs",
+      "bytes": 3233,
+      "sha256": "cce9c94346506a17ec689f20c16ec4dae69487537066378918e915009f07fdd8"
+    },
+    {
+      "path": "reference/native/crates/inference/src/runtime.rs",
+      "bytes": 32160,
+      "sha256": "cc713085e823fedb580f102971b4881c949631ab4ecb9eba119156a5798861ef"
+    },
+    {
+      "path": "reference/native/models/comparison-catalog.json",
+      "bytes": 2055,
+      "sha256": "339f964b0813d18eb0ac6b922ebe6696c6ac336b146b0acb91821bd609232f80"
+    },
+    {
+      "path": "reference/native/native/worker/main.cpp",
+      "bytes": 12203,
+      "sha256": "6ce29533cb84ac6e6a533e50f84c301082781c5b7e6c2470b483e2096eafb9d3"
+    },
+    {
+      "path": "scripts/build-wasm.sh",
+      "bytes": 474,
+      "sha256": "a8935b26a967dbd53fa538b0eb7a6525cf3c30b0d15a310fc483979f54d76adc"
+    },
+    {
+      "path": "scripts/verify-wasm.mjs",
+      "bytes": 1027,
+      "sha256": "7761f67856860b07cccc247cdbd1160934d58148263cf9484de60ea121f68c30"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1847,
+      "sha256": "2c419732a52c54ce0ad25937694b29615c478dd70f148fc27c8819559b20222e"
+    },
+    {
+      "path": "tests/examples/embedded-chat.test.ts",
+      "bytes": 5389,
+      "sha256": "eb01b273d214105a136a978950d303b4a4281604cade38a3a9059942956aea72"
+    },
+    {
+      "path": "tests/fixtures/synthetic/cases.json",
+      "bytes": 17460,
+      "sha256": "67deb9ed33452819bcf44b906639377db7648725b1aa3fe028973be44f02e6cd"
+    },
+    {
+      "path": "tests/fixtures/workflows/support-record.json",
+      "bytes": 2895,
+      "sha256": "fcfc99e4581fde3a0089c0126acd274d9a97915aceaf309cea78894fd1810497"
+    },
+    {
+      "path": "tests/integration/case-lifecycle.test.ts",
+      "bytes": 3581,
+      "sha256": "fe8894a9ab8a3b934c6f322096146040f99a84b9f9d6a1a8e9c01129f0fbd837"
+    },
+    {
+      "path": "tests/integration/native-app-ui.test.ts",
+      "bytes": 16858,
+      "sha256": "61a7efb480d54fa1ad3d30d51e689abe0803efda0d9798914444a79ef864b52b"
+    },
+    {
+      "path": "tests/integration/native-bridge.test.ts",
+      "bytes": 5173,
+      "sha256": "cd72453431f62dfe0b90dee3c934e3c1a5532ad9de16693d1a3cbf9b290204a1"
+    },
+    {
+      "path": "tests/integration/native-chat-ui.test.ts",
+      "bytes": 28552,
+      "sha256": "101e6ca4746184ec989e628fe4b1f8779f10bfac095585470096a6396ef26c59"
+    },
+    {
+      "path": "tests/integration/provider-wire.test.ts",
+      "bytes": 2905,
+      "sha256": "5befb139dcc4e3e9cddc6fed8444c8b2265fa631c27de2b746e9662668f6a828"
+    },
+    {
+      "path": "tests/integration/sdk.test.ts",
+      "bytes": 14618,
+      "sha256": "8f9e62e5dbac728f1e7b67509cea0f87b1611a42d893cf45ff296411edbd7ce3"
+    },
+    {
+      "path": "tests/security/text-import.test.ts",
+      "bytes": 2074,
+      "sha256": "1bdabf39179b0d0b6c1ba9d5fa4342c329701441bb931754a95dc5fb35de4fb3"
+    },
+    {
+      "path": "tests/security/wasm.test.ts",
+      "bytes": 9364,
+      "sha256": "7e427c530b3677676bf2ae93570f0e2f1277a410ab6c296eecca085a02a8335a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 10412,
+      "sha256": "a76fcc9b005f8ea51149cbae886797b4c4fb38df4597435a08a398b3bcfc4243"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 496,
+      "sha256": "efef746cf6498b6c4a72d7fa8896b278b35cd1afe99333e26b62c4e1d2db9386"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 867,
+      "sha256": "a4a6f6b27e665f8452104492dc281d3eb7de273c38d635e0407627fd056099d2"
+    },
+    {
+      "path": "vitest.config.ts",
+      "bytes": 143,
+      "sha256": "1ba6d2b5cb75229fd46a6b773c71d06ae1e9e55bb479def43674174b1c6c1456"
+    }
+  ],
+  "repository": "https://github.com/TOMNOM-iine/cushion-ai-preview",
+  "publicationAuthorizedOn": "2026-09-30"
+}

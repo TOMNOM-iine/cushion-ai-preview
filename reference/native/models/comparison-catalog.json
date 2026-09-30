@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-28",
+  "license": "Apache-2.0",
+  "templateSha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "models": [
+    {
+      "id": "qwen3.5-9b-q8_0",
+      "name": "Qwen3.5-9B · Q8_0 · Metal",
+      "official": "Qwen/Qwen3.5-9B",
+      "officialRevision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "quantizer": "bartowski/Qwen_Qwen3.5-9B-GGUF",
+      "revision": "182be2fd6c7bc44887d88a91cb03ff009cc9f549",
+      "file": "Qwen_Qwen3.5-9B-Q8_0.gguf",
+      "bytes": 9804541984,
+      "sha256": "b58fe056b5435070240de259f3f981aa38fee96825bbd78c088d5fd90e46f2b5"
+    },
+    {
+      "id": "qwen3.5-9b-q4_k_m",
+      "name": "Qwen3.5-9B · Q4_K_M · Metal",
+      "official": "Qwen/Qwen3.5-9B",
+      "officialRevision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "quantizer": "bartowski/Qwen_Qwen3.5-9B-GGUF",
+      "revision": "182be2fd6c7bc44887d88a91cb03ff009cc9f549",
+      "file": "Qwen_Qwen3.5-9B-Q4_K_M.gguf",
+      "bytes": 6169341984,
+      "sha256": "d784ce9eda1a5a7b51e8f705a9e6310844bf4f173654d115823c775fdea56d43"
+    },
+    {
+      "id": "qwen3.5-4b-q8_0",
+      "name": "Qwen3.5-4B · Q8_0 · Metal",
+      "official": "Qwen/Qwen3.5-4B",
+      "officialRevision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "quantizer": "bartowski/Qwen_Qwen3.5-4B-GGUF",
+      "revision": "4168f45a16a1290d65a4ec0fa312ae917a4c15d6",
+      "file": "Qwen_Qwen3.5-4B-Q8_0.gguf",
+      "bytes": 4622131168,
+      "sha256": "5c74c0ede371924357dff0cb6ba145bd67208b9b2389ded681adfff3f7608db7"
+    },
+    {
+      "id": "qwen3.5-4b-q4_k_m",
+      "name": "Qwen3.5-4B · Q4_K_M · Metal",
+      "official": "Qwen/Qwen3.5-4B",
+      "officialRevision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "quantizer": "bartowski/Qwen_Qwen3.5-4B-GGUF",
+      "revision": "4168f45a16a1290d65a4ec0fa312ae917a4c15d6",
+      "file": "Qwen_Qwen3.5-4B-Q4_K_M.gguf",
+      "bytes": 3013027808,
+      "sha256": "13c16f426047e2de38cd075bdade4a7bcbc8c774384876f677740cda65f8a983"
+    }
+  ]
+}

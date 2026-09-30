@@ -1,0 +1,103 @@
+[
+  {
+    "id": "support_observation",
+    "original": "活動：架空の風待ち教室で、架空の葉村さんが9月28日に積み木遊びを行った。\n観察：最初は参加しなかった。声をかけた後、自分で積み木を2個選んだ。\n関わり：職員は選べるように積み木を並べ、手順を短い言葉で伝えた。",
+    "secrets": [
+      "風待ち教室",
+      "葉村",
+      "9月28日",
+      "2"
+    ],
+    "expectedState": "REVIEW",
+    "prohibited": [
+      "風待ち教室",
+      "葉村",
+      "9月28日",
+      "2"
+    ],
+    "preserve": [
+      "最初は参加しなかった",
+      "声をかけた後",
+      "自分で",
+      "短い言葉"
+    ],
+    "expectedRanges": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "風待ち教室"
+      },
+      {
+        "start": 16,
+        "end": 18,
+        "text": "葉村"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "text": "9月28日"
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "text": "2"
+      },
+      {
+        "start": 66,
+        "end": 67,
+        "text": "2"
+      }
+    ],
+    "blockedReason": null
+  },
+  {
+    "id": "support_condition",
+    "original": "活動：架空の灯台ひろばで、架空の穂波さんが切り絵に取り組んだ。\n観察：道具を並べると席についたが、まだ作品は完成していない。\n関わり：職員は希望を聞いて紙を渡した。続きに取り組むかは本人に確認する。",
+    "secrets": [
+      "灯台ひろば",
+      "穂波"
+    ],
+    "expectedState": "REVIEW",
+    "prohibited": [
+      "灯台ひろば",
+      "穂波"
+    ],
+    "preserve": [
+      "まだ作品は完成していない",
+      "本人に確認する"
+    ],
+    "expectedRanges": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "灯台ひろば"
+      },
+      {
+        "start": 16,
+        "end": 18,
+        "text": "穂波"
+      }
+    ],
+    "blockedReason": null
+  },
+  {
+    "id": "support_medication",
+    "original": "架空の児童の服薬状況と病歴を含む記録を整えたい。",
+    "secrets": [],
+    "expectedState": "BLOCKED",
+    "prohibited": [],
+    "preserve": [],
+    "expectedRanges": [],
+    "blockedReason": "診断・服薬・病歴を含む文章は、この試作の対象外です。観察した活動と関わりだけの文章に見直してください。"
+  },
+  {
+    "id": "support_family",
+    "original": "架空の児童の詳細な家庭事情を含む支援記録を整えたい。",
+    "secrets": [],
+    "expectedState": "BLOCKED",
+    "prohibited": [],
+    "preserve": [],
+    "expectedRanges": [],
+    "blockedReason": "詳細な家庭事情を含む文章は、この試作の対象外です。観察した活動と関わりだけの文章に見直してください。"
+  }
+]
